@@ -16,7 +16,7 @@ echo "Mem:$(free -m | awk 'NR==2{printf "%.2f%%\t\t", $3*100/$2 }')"
 echo '<br>'
 echo "Disk used:$(df -h | awk '$NF=="/"{printf "%s", $5}')"
 echo '<br>'
-echo "sensors temp:$(sensors | grep "Core 0" | awk '{print $3}')"
+echo "Temp:$(sensors | grep "Core 0" | awk '{print $3}')"
 echo '</em></small>'
 
 /bin/cat << EOM
