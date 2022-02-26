@@ -1,5 +1,10 @@
 # Script bash utilizando o apache cgi
 
+## Url
+```
+http://localhost:8080/main.cgi
+```
+
 
 
 ## Instruções de utilização
